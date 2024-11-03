@@ -306,6 +306,9 @@ body {
   .home-title {
     font-size: 30px; /* Reduce font size */
   }
+  .padding-done {
+    padding-top: 20px;
+  }
 }
 
 @media (max-width: 768px) {
