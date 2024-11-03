@@ -7,7 +7,10 @@ function Home() {
             <img src="/images/profile.png" className="profile"></img>
           </div>
           <div className="col-lg-7 col-md-7 col-sm-12 center">
-            <h2>I'm Vijayalakshmi</h2>
+            <h2 className="text-center-name">
+              I'm &nbsp;
+              <span className="text-color">V</span>ijayalakshmi
+            </h2>
             <h1 className="home-title text-color">MERN FullStack Developer</h1>
             <p>
               I'm a software engineer specializing in scalable web apps. Explore

@@ -389,7 +389,7 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 65vh;
+    height: 58vh;
   }
   .number {
     font-size: 50px;
@@ -403,5 +403,10 @@ body {
   }
   .profile {
     width: 300px;
+  }
+  .text-center-name {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
   }
 }
