@@ -11,7 +11,7 @@ function Contact() {
           </div>
           <div className="col-md-4 justify-content-center d-flex align-items-center">
             <a href="/contact">
-              <button className="btn btn-custom text-white mx-4" type="button">
+              <button className="btn btn-custom text-white mx-4 contact-btn" type="button">
                 &rarr; Let’s get in touch
               </button>
             </a>

@@ -19,7 +19,7 @@ body {
   color: white;
 }
 .btn-custom:hover {
-  background-color: #7a30a8; 
+  background-color: #7a30a8;
   border-color: #7a30a8;
 }
 .center {
@@ -82,7 +82,7 @@ body {
 
 /*Home*/
 .home-title {
-  font-size: 60px;
+  font-size: 38px;
   display: inline-block;
   border-right: 3px solid purple;
   white-space: nowrap;
@@ -129,6 +129,9 @@ body {
   text-align: center;
   opacity: 1;
   cursor: pointer;
+}
+.profile {
+  width: 380px;
 }
 
 /*About*/
@@ -232,9 +235,6 @@ body {
 
 /*skills*/
 .skill-box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   position: relative;
   padding: 40px;
   margin: 20px;
@@ -245,6 +245,7 @@ body {
   text-align: center;
   opacity: 1;
   cursor: pointer;
+  width: 90%;
 }
 .skill-box:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -288,6 +289,7 @@ body {
 .content {
   margin-left: 0;
   padding-left: 20rem;
+  padding-bottom: 25px;
 }
 
 .navigation {
@@ -309,7 +311,7 @@ body {
 @media (max-width: 768px) {
   /* For tablets */
   .home-title {
-    font-size: 38px;
+    font-size: 22px;
   }
   .about-text,
   .project_description {
@@ -342,6 +344,13 @@ body {
   .padding {
     padding-top: 20px;
   }
+  .about-container {
+    display: flex;
+    justify-content: center;
+  }
+  .profile {
+    width: 250px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -353,18 +362,19 @@ body {
   .about-box,
   .skill-box,
   .contact-card {
-    width: 75%;
+    width: 90%;
     padding: 15px;
     flex-direction: column;
   }
-  .contact-box,
-  .btn-custom {
-    width: 100%; 
+  .contact-box {
+    width: 90%;
+  }
+  .project-btn {
+    width: 50%;
   }
   .project_image {
-    width: 100%; 
+    width: 100%;
   }
-
   .responsive {
     display: none !important;
   }
@@ -376,12 +386,19 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 50vh;
+    height: 65vh;
   }
   .number {
     font-size: 50px;
   }
   .padding-done {
     padding-top: 20px;
+  }
+  .about-container {
+    display: flex;
+    justify-content: center;
+  }
+  .profile {
+    width: 350px;
   }
 }

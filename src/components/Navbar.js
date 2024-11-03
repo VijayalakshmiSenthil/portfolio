@@ -87,9 +87,9 @@ function NavBar() {
                 <li className="nav-item py-1">
                   <a
                     className={`nav-link ${
-                      activeLink === "#about" ? "active" : ""
+                      activeLink === "/about" ? "active" : ""
                     } text-black`}
-                    href="#about"
+                    href="/about"
                   >
                     <i
                       className="fa-solid fa-user"
@@ -115,9 +115,9 @@ function NavBar() {
                 <li className="nav-item py-1">
                   <a
                     className={`nav-link ${
-                      activeLink === "#skills" ? "active" : ""
+                      activeLink === "/skills" ? "active" : ""
                     } text-black`}
-                    href="#skills"
+                    href="/skills"
                   >
                     <i
                       className="fa-solid fa-lightbulb"
@@ -178,9 +178,9 @@ function NavBar() {
               <li className="nav-item">
                 <a
                   className={`nav-link ${
-                    activeLink === "#about" ? "active" : ""
+                    activeLink === "/about" ? "active" : ""
                   } text-black`}
-                  href="#about"
+                  href="/about"
                 >
                   <i
                     className="fa-solid fa-user fs-5"
@@ -206,9 +206,9 @@ function NavBar() {
               <li className="nav-item">
                 <a
                   className={`nav-link ${
-                    activeLink === "#skills" ? "active" : ""
+                    activeLink === "/skills" ? "active" : ""
                   } text-black`}
-                  href="#skills"
+                  href="/skills"
                 >
                   <i
                     className="fa-solid fa-lightbulb fs-5"
