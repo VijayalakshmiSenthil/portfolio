@@ -131,7 +131,7 @@ body {
   cursor: pointer;
 }
 .profile {
-  width: 380px;
+  width: 350px;
 }
 
 /*About*/
@@ -304,7 +304,7 @@ body {
     height: 100vh !important;
   }
   .home-title {
-    font-size: 45px; /* Reduce font size */
+    font-size: 30px; /* Reduce font size */
   }
 }
 
@@ -399,6 +399,6 @@ body {
     justify-content: center;
   }
   .profile {
-    width: 350px;
+    width: 300px;
   }
 }
