@@ -1,13 +1,15 @@
 function Home() {
   return (
     <>
-      <div className="container py-4">
+      <div className="container py-4 min-vh-100 d-flex justify-content-center align-items-center">
         <div className="row">
-          <div className="col-lg-5 col-md-5 col-sm-12 center ">
-            <img src="/images/profile.png" className="profile"></img>
+          <div className="col-lg-5 col-md-5 col-sm-12 ">
+            <div className="profile-img">
+              <img src="/images/profile.png" className="profile"></img>
+            </div>
           </div>
-          <div className="col-lg-7 col-md-7 col-sm-12 center">
-            <h2 className="text-center-name">
+          <div className="col-lg-7 col-md-7 col-sm-12">
+            <h2 className="text-center-name pt-4">
               I'm &nbsp;
               <span className="text-color">V</span>ijayalakshmi
             </h2>
@@ -18,7 +20,7 @@ function Home() {
             </p>
             <a href="/images/Resume.pdf" download="Resume.pdf">
               <button
-                className="btn btn-outline-dark button mt-5 mb-5"
+                className="btn btn-outline-dark button mt-2 mb-2"
                 type="button"
               >
                 <span>Resume</span>
@@ -29,8 +31,8 @@ function Home() {
             </a>
           </div>
 
-          <div className="col-md-6 d-md-none">
-            <div className="profile-box ">
+          <div className="col-md-6 d-md-none d-flex justify-content-center pt-3">
+            <div className="profile-box">
               <div>
                 <a
                   className="navbar-brand d-flex align-items-center justify-content-center"

@@ -1,7 +1,7 @@
 function About() {
   return (
     <>
-      <div className="container h-100 pt-5" id="about">
+      <div className="container h-100 pt-2" id="about">
         <div className="d-flex">
           <div className="title-line"></div>
           <h1 className="px-3">What I do?</h1>
@@ -15,7 +15,10 @@ function About() {
           development.
         </p>
         <a href="/project">
-          <button className="btn btn-custom text-white project-btn" type="button">
+          <button
+            className="btn btn-custom text-white project-btn"
+            type="button"
+          >
             View Projects
           </button>
         </a>
