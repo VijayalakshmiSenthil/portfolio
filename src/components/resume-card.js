@@ -18,7 +18,13 @@ function Resume() {
         </a>
       </div>
       <div className="d-flex justify-content-center py-5">
-        <img src="/images/Resume.jpg" width="90%" alt="Resume preview" />
+        <iframe
+          src="/images/Resume.pdf"
+          width="100%"
+          height="600px"
+          style={{ border: "none" }}
+          title="PDF Viewer"
+        />{" "}
       </div>
     </>
   );
