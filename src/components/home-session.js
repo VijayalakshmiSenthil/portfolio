@@ -13,7 +13,7 @@ function Home() {
               I'm &nbsp;
               <span className="text-color">V</span>ijayalakshmi
             </h2>
-            <h1 className="home-title text-color">MERN FullStack Developer</h1>
+            <h1 className="home-title text-color">Frontend Developer</h1>
             <p>
               I'm a software engineer specializing in scalable web apps. Explore
               my projects and online resume.
@@ -44,7 +44,7 @@ function Home() {
                   Vijayalakshmi
                 </h3>
                 <p className="d-flex align-items-center justify-content-center ">
-                  MERN Developer
+                  Frontend Developer
                 </p>
 
                 <ul className="navbar-nav d-flex flex-row align-items-center justify-content-center ">
@@ -72,7 +72,7 @@ function Home() {
                   <li className="nav-item px-1">
                     <a
                       className="nav-link"
-                      href="mailto:vijayalakshmisenthil8133@gmail.com"
+                      href="mailto:vijayalakshmi.senthilnayagam@gmail.com"
                     >
                       <i className="fa-brands fa-google social-media"></i>
                     </a>

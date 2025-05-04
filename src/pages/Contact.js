@@ -41,7 +41,7 @@ function Contact_Page() {
                 <li className="nav-item px-1">
                   <a
                     className="nav-link"
-                    href="mailto:vijayalakshmisenthil8133@gmail.com"
+                    href="mailto:vijayalakshmi.senthilnayagam@gmail.com"
                   >
                     <i className="fa-brands fa-google social-media"></i>
                   </a>
@@ -67,7 +67,7 @@ function Contact_Page() {
           <div className="col-lg-4 col-md-12 padding d-flex justify-content-center">
             <div className="contact-box d-flex justify-content-center align-items-center">
               <i class="fa-brands fa-google pb-3"></i>
-              <h6>vijayalakshmisenthil8133@gmail.com</h6>
+              <h6>vijayalakshmi.senthilnayagam@gmail.com</h6>
             </div>
           </div>
         </div>

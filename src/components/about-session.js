@@ -7,7 +7,7 @@ function About() {
           <h1 className="px-3">What I do?</h1>
         </div>
         <p className="about-text">
-          Experienced MERN Stack Developer with a solid foundation in web
+          Experienced Frontend Developer with a solid foundation in web
           development, specializing in delivering cutting-edge solutions that
           enhance user experience and drive project success. Proven ability to
           optimize performance, collaborate effectively with teams, and

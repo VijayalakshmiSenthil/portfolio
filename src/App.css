@@ -109,17 +109,17 @@ button {
   white-space: nowrap;
   overflow: hidden;
   width: 0; /* Initially hidden */
-  animation: typing 5s steps(23) infinite, blink 0.75s step-end infinite;
+  animation: typing 5s steps(15) infinite, blink 0.75s step-end infinite;
 }
 @keyframes typing {
   0% {
     width: 0;
   }
   25% {
-    width: 23ch; /* Full width of the text */
+    width: 15ch; /* Full width of the text */
   }
   75% {
-    width: 23ch; /* Keep it full width */
+    width: 15ch; /* Keep it full width */
   }
   100% {
     width: 0; /* Reset width to create a looping effect */

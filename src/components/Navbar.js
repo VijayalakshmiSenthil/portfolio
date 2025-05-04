@@ -37,7 +37,7 @@ function NavBar() {
                 Vijayalakshmi
               </h3>
               <p className="d-flex align-items-center justify-content-center responsive">
-                MERN Developer
+                Frontend Developer
               </p>
 
               <ul className="navbar-nav d-flex flex-row align-items-center justify-content-center responsive">
@@ -65,7 +65,7 @@ function NavBar() {
                 <li className="nav-item px-1">
                   <a
                     className="nav-link"
-                    href="mailto:vijayalakshmisenthil8133@gmail.com"
+                    href="mailto:vijayalakshmi.senthilnayagam@gmail.com"
                   >
                     <i className="fa-brands fa-google social-media"></i>
                   </a>
@@ -157,7 +157,7 @@ function NavBar() {
               </ul>
             </div>
             <div className="mb-2 d-flex align-items-center justify-content-center responsive">
-              <small>Copyright © 2024</small>
+              <small>Copyright © 2025</small>
             </div>
           </div>
 
