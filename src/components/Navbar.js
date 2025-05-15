@@ -57,11 +57,7 @@ function NavBar() {
                     <i className="fa-brands fa-github social-media"></i>
                   </a>
                 </li>
-                <li className="nav-item px-1">
-                  <a className="nav-link" href="tel:+1234567890">
-                    <i className="fa-solid fa-phone social-media"></i>
-                  </a>
-                </li>
+
                 <li className="nav-item px-1">
                   <a
                     className="nav-link"

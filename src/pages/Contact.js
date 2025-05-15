@@ -33,11 +33,7 @@ function Contact_Page() {
                     <i className="fa-brands fa-github social-media"></i>
                   </a>
                 </li>
-                <li className="nav-item px-1">
-                  <a className="nav-link" href="tel:+1234567890">
-                    <i className="fa-solid fa-phone social-media"></i>
-                  </a>
-                </li>
+
                 <li className="nav-item px-1">
                   <a
                     className="nav-link"
@@ -54,8 +50,8 @@ function Contact_Page() {
         <div className="row m-0 ">
           <div className="col-lg-4 col-md-6 d-flex justify-content-center">
             <div className="contact-box d-flex justify-content-center align-items-center">
-              <i class="fa-solid fa-phone pb-3"></i>
-              <h6>9360780598</h6>
+              <i class="fa-brands fa-linkedin pb-3"></i>
+              <h6>Vijayalakshmi</h6>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 padding-done d-flex justify-content-center">
